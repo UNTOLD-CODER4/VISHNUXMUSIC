@@ -248,7 +248,7 @@ def stream_markup2(_, chat_id):
                 text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Untold_CODER4"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/MoonLight_Worlds
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/MoonLight_Worlds"
             ),
         ],
 
