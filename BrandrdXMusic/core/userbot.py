@@ -101,8 +101,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("MoonLight_Worlds")
-                await self.two.join_chat("world_friend_chatting_zone")
+                await self.two.join_chat("https://t.me/+bThODpBz5adiNDJl")
+                await self.two.join_chat("NAINCYXMUSIC_SUPPORT")
                 await self.two.join_chat("untold_coder")
                 await self.two.join_chat("ABOUT_CODER")
             except:
