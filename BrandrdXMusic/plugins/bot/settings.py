@@ -224,7 +224,7 @@ async def addition(client, CallbackQuery, _):
         if final >= 15:
             final = 15
         await set_upvotes(CallbackQuery.message.chat.id, final)
-    buttons = vote_mode_markup(_, final, True)
+    buttons = vote_mode_markup(_, final, False)
     try:
         return await CallbackQuery.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(buttons)
